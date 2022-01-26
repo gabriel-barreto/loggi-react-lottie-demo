@@ -1,6 +1,6 @@
 {
   "name": "loggi-react-lottie-demo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "author": {
     "name": "Gabriel Barreto",
@@ -15,7 +15,9 @@
     "react-dom": "^17.0.2",
     "react-lottie": "^1.2.3",
     "react-scripts": "5.0.0",
+    "react-syntax-highlighter": "^15.4.5",
     "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

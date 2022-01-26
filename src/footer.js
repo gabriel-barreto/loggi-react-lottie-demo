@@ -2,12 +2,17 @@ import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
   align-items: center;
-  bottom: 0;
   display: flex;
   justify-content: center;
-  padding: 1rem;
-  position: fixed;
+  margin: 4rem 0 0 0;
   width: 100%;
+
+  @media screen and (min-height: 768px) {
+    margin: 0;
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+  }
 `;
 
 const Author = styled.a`

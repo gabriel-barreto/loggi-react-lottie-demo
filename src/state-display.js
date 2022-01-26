@@ -4,7 +4,9 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const Code = styled(SyntaxHighlighter)`
   border-radius: var(--borderRadius);
-  width: 40ch;
+  @media screen and (min-width: 48ch) {
+    width: 40ch;
+  }
 `;
 
 export function StateDisplay({ state }) {

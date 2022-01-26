@@ -1,5 +1,7 @@
 # Loggi Frontend Show & Tell - Animações com React Lottie
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b0e874d-daa5-4732-8b8e-11ff06a36ff3/deploy-status)](https://app.netlify.com/sites/gb-loggi-react-lottie-demo/deploys)
+
 A simple demo of React Lottie power to 1st Loggi Frontend Show & Tell
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

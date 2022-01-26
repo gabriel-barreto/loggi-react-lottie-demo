@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Loggi Frontend Show & Tell - Animações com React Lottie
+
+A simple demo of React Lottie power to 1st Loggi Frontend Show & Tell
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

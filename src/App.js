@@ -14,7 +14,8 @@ const Wrapper = styled.main`
   justify-content: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2rem;
   width: 100%;
 `;
 

@@ -6,13 +6,20 @@ import { RestartAlt } from '@styled-icons/material-rounded';
 
 const ControlsWrapper = styled.div`
   align-items: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
   justify-content: center;
+  justify-items: center;
   margin: 2rem 0 0.5rem 0;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 `;
 
 const Control = styled.button`
-  --size: 3rem;
+  --size: 2.5rem;
   align-items: center;
   border-radius: var(--borderRadius);
   background-color: var(--white);
@@ -35,8 +42,10 @@ const Control = styled.button`
     transform: scale(0.8);
   }
 
-  &:not(:last-of-type) {
-    margin: 0 0.5rem 0 0;
+  @media screen and (min-width: 768px) {
+    &:not(:last-of-type) {
+      margin: 0 0.5rem 0 0;
+    }
   }
 `;
 
